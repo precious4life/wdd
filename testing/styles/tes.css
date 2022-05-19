@@ -12,9 +12,10 @@ nav a:hover{
     color: rgb(229, 239, 239);
 }
 body {
-    margin: 50px auto;
+    margin: 0;
     background-color: black;
     text-align: center;
+    width: 100%;
 }
 h1  {
     color: brown;
@@ -24,11 +25,13 @@ h1:hover {
 }
 main {
     background-color: bisque;
-    margin: -22px;
     padding: 25px 0;
+    width: 100%;
+
 }
 footer {
     background-color: rgb(165, 42, 42);
+    width: 100%;
 }
 footer p {
     color: aliceblue;
@@ -36,6 +39,7 @@ footer p {
 header {
     background-color: rgba(165, 42, 42);
     margin: 50px 0;
+    width: 100%;
 }
 .logo{
     width: 80px;
