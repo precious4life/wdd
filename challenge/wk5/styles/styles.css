@@ -1,0 +1,24 @@
+
+#person {
+    margin: 25px;
+    width: 200px;
+    border-radius: 150px;
+    border: 10px dotted rgb(53, 53, 53);
+}
+#graphic {
+    margin: 25px;
+    width: 200px;
+    border-radius: 150px;
+    border: 10px dotted rgb(53, 53, 53);
+}
+#desk{
+    margin: 25px;
+    width: 200px;
+    border-radius: 150px;
+    border: 10px dotted rgb(53, 53, 53);
+}
+section {
+    text-align: center;
+    background-color: rgb(24, 227, 230);
+    margin: 112px;
+}
