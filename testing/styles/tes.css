@@ -51,8 +51,12 @@ header {
 .social {
     padding: 25px;
 
+
 }
 #site-width{
     max-width: 1600px;
     margin: 0 auto;
+}
+.social img {
+    border-radius: 50%;
 }
