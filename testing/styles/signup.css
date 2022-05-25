@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(rapids.jpg);
+    background-image: url(WhatsAppImage.jpeg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -9,7 +9,7 @@ body{
 .loginbox {
     width: 320px;
     height: 500px;
-    background: #000;
+    background: rgba(0, 0, 0, 0.956);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -33,6 +33,7 @@ h1 {
     font-size: 22px;
     color: cyan;
 }
+
 
 
 h1:hover {
@@ -99,4 +100,14 @@ h1:hover {
 }
 .twi {
     width: 25px;
+}
+
+.homepage {
+    text-align: center;
+    font-size: 25px;
+    
+    margin-top: 25px;
+}
+.homepage a {
+    color: cyan;
 }
