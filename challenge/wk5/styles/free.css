@@ -1,0 +1,43 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 80px 200px auto 40px;
+    grid-template-rows: 80px 200px;
+    height: 400px;
+    align-content: end;
+    background-color: slategray;
+
+    
+}
+.test1{
+    background-color: aqua;
+    color: white;
+    grid-area: 1 / 2 / 5 / 6;
+}
+.test2 {
+    background-color: aquamarine;
+    color: white;
+}
+.test3{
+    background-color: blue;
+    color: white;
+}
+.test4{
+    background-color: blueviolet;
+    color: white;
+}
+.test5{
+    background-color: brown;
+    color: white;
+}
+.test6{
+    background-color: yellow;
+    color: white;
+}
+.test7{
+    background-color: chocolate;
+    color: white;
+}
+.test8{
+     background-color: black;
+     color: white;
+}

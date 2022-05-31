@@ -2,8 +2,11 @@ nav a {
     text-align: center;
     color: bisque;
     text-decoration: none;
-    padding: 35px;
+    
     font-size: 25px;
+}
+nav{
+    padding-top: 50px;
 }
 a {
     padding: 25px;
@@ -23,7 +26,7 @@ h1  {
 h1:hover {
     color: blue;
 }
-main {
+main, #hero-text {
     background-color: bisque;
     padding: 25px 0;
     width: 100%;
@@ -38,19 +41,19 @@ footer p {
 }
 header {
     background-color: rgba(165, 42, 42);
-    margin: 50px 0;
     width: 100%;
+    height: 120px;
 }
 .logo{
-    width: 90px;
+    width: 150px;
     border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: -20px;
+    position: absolute;
+    margin-left: 50px;
 
 }
 #logo_link {
-    padding-top: 5px;
-    margin-left: -1000px;
+    padding-top: 10px;
+    float: left;
 
     
 }
@@ -65,4 +68,29 @@ header {
 }
 .social img {
     border-radius: 50%;
+}
+
+.pictures-frame {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.pics-size {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+}
+.rated{
+    text-align: center;
+    margin-top: 100px;
+    background-color: aquamarine;
+}
+
+.rapids{
+    
+    color: brown;
+    text-align: center;
+    background-color: aquamarine;
 }
