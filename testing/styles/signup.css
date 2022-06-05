@@ -110,4 +110,5 @@ h1:hover {
 }
 .homepage a {
     color: cyan;
+    text-decoration: none;
 }
